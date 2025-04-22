@@ -76,7 +76,7 @@ const info = {
             school: "Salaam University",
             degree: "Bachelor of Science in Computer Science",
             duration: "2020 - 2024",
-            image: "Salaam logo.jpg"
+            image: "Salaam.jpg"
         },
         {
             school: "Darulkarim School",
