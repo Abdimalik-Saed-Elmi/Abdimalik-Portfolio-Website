@@ -24,8 +24,8 @@ const info = {
 			title: "Darulkarim School Website",
 			description: "A comprehensive website developed by me for the Darulkarim School Website, built using the MERN stack to manage student records, course information, school events.",
 			technologies: 'MongoDB, Express.js, React, Node.js, Tailwind',
-			github: "https://github.com/dsbalico/YouShare",
-            link: "https://github.com/dsbalico/YouShare"
+			github: "https://github.com/Abdimalik-Saed-Elmi/Darulkrim-School-Website",
+            link: "https://darulkarim-school.onrender.com/"
 		},
 
         {

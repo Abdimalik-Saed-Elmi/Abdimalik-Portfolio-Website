@@ -62,7 +62,7 @@ function Contact() {
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
         >
           <FaFile className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Show Online Resume</span>
+          <span className="self-center">Show My Online Resume</span>
         </a>
       </div>
 
