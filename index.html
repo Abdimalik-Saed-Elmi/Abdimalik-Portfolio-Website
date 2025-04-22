@@ -1,168 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abdimalik Said Elmi - Website Portfolio</title>
-  <style>
-    .box{
-      cursor: pointer;
-      
-    }
-  </style>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="font-sans antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="abdi.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Abdimalik Said ELmi</title>
+    
+    <meta name="description" content="Abdimalik Said ELmi. Software Engineer. I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies." />
+    <meta name="keywords" content="Abdimalik Said ELmi, Abdimalik, Abdimalik, Abdimalik, Abdimalik, Abdimalik, Abdimalik Said ELmi, Abdimalik Said ELmi's personal website, Abdimalik Said ELmi's website, Abdimalik Said ELmi's portfolio, Abdimalik Said ELmi's blog, Abdimalik Said ELmi's projects, Abdimalik Said ELmi's resume, Abdimalik Said ELmi's contact, Abdimalik Said ELmi's about, Abdimalik Said ELmi's home, Abdimalik Said ELmi's homepage, Abdimalik Said ELmi's personal, Abdimalik Said ELmi's personal website, Abdimalik Said ELmi's personal site, Abdimalik Said ELmi's personal blog, Abdimalik Said ELmi's personal projects, Abdimalik Said ELmi's personal resume, Abdimalik Said ELmi's personal contact, Abdimalik Said ELmi's personal about, Abdimalik Said ELmi's personal home, Abdimalik Said ELmi's personal homepage, Abdimalik Said ELmi's personal personal, Abdimalik Said ELmi's personal personal website, Abdimalik Said ELmi's personal personal site, Abdimalik Said ELmi's personal personal blog, Abdimalik Said ELmi's personal personal projects, Abdimalik Said ELmi's personal personal resume, Abdimalik Said ELmi's personal personal contact, Abdimalik Said ELmi's personal personal about, Abdimalik Said ELmi's personal personal home, Abdimalik Said ELmi's personal personal homepage" />
+    <meta name="og:image" content="/cover.png" />
+    <meta name="author" content="Abdimalik Said ELmi">
+    <meta name="keywords" content="Abdimalik Said ELmi, Abdimalik, Abdimalik, Abdimalik, software engineer, full-stack web developer, web developer, web development, software developer, software development, html, css, javascript, typescript, python, reactjs, expressjs, nodejs, vue, nuxt, mongodb, postgresql, porfolio, personal porfolio, personal website, web developer portfolio, web developer website, web developer porfolio website, web developer personal website, web developer personal porfolio" />
+    
+    <link rel="canonical" href="https://abdimalik-said.onrender.com/">
 
-  <!-- Navbar -->
-  <nav class="bg-black p-4 text-white">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="text-xl font-bold flex items-center gap-8">
-        <img src="./Images/Abdi.jpg" alt="Abdimalik" class="rounded-full w-12 h-12  mx-auto ">
-        Abdimalik Said Elmi</div>
-      <div class="hidden md:flex">
-        <a href="#home" class="px-3">Home</a>
-        <a href="#about" class="px-3">About Me</a>
-        <a href="#projects" class="px-3">Projects</a>
-        <a href="#contact" class="px-3">Contact</a>
-      </div>
-      <div class="md:hidden">
-        <button id="menu-button" class="focus:outline-none">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-          </svg>
-        </button>
-      </div>
-    </div>
-    <div id="mobile-menu" class="hidden md:hidden ">
-      <a href="#home" class="block px-3 py-2">Home</a>
-      <a href="#about" class="block px-3 py-2">About Me</a>
-      <a href="#projects" class="block px-3 py-2">Projects</a>
-      <a href="#contact" class="block px-3 py-2">Contact</a>
-    </div>
-  </nav>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BNTTBGHXSC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <!-- Home Section -->
-  <section id="home" class="bg-gray-100 py-20">
-    <div class="container mx-auto text-center px-4">
-      <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
-      <p class="text-lg mb-6">I am Abdimalik Said Elmi, a full stack developer passionate about creating innovative solutions.</p>
-      <a href="#projects" class="bg-black text-white py-2 px-4 rounded">View My Projects</a>
-    </div>
-  </section>
-
-  <!-- About Me Section -->
-  <section id="about" class="py-20">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
-      <div class="flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 p-4">
-          <img src="./Images/Abdi.jpg" alt="Abdimalik Said Elmi" class="rounded-full w-72 h-72  mx-auto mb-4 md:mb-0">
-        </div>
-        <div class="md:w-1/2 p-4 text-center md:text-left">
-          <p class="text-lg">I'm a full stack developer with a background in Computer Science & IT. I specialize in creating dynamic and responsive web applications. My interests include web development, mobile applications, and exploring new technologies.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="bg-gray-100 py-20">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white box p-4 rounded shadow">
-          <img src="./Images/WhatsAppLink.png" alt="Project 1" class="w-full h-48 object-cover mb-4 rounded">
-          <h3 class="text-xl font-bold mb-2 ml-3">WhatsApp Link Generator</h3>
-          <p class="mb-4">To open a WhatsApp chat, you usually need to know the user’s phone number, save it on your device and search for it to start the conversation. A WhatsApp link simplifies those steps in 1 single click that opens the chat without saving phone numbers, this is what it’s called "click to chat”. If you would like to create WhatsApp links for people to contact you instantly, you are in the right place. <br/> <br/> Lets you generate WhatsApp links for free with name and QR code in less than 1 minute, no registration required.</p>
-          <br/>
-          <a href="https://whats-app-link-generator.vercel.app/" class="bg-black text-white py-2 px-4 rounded">Visit Now</a>
-        </div>
-        <div class="bg-white p-4 box rounded shadow">
-          <img src="./Images/PasswordGenerator.jpeg" alt="Project 2" class="w-full h-48 object-cover mb-4 rounded">
-          <h3 class="text-xl font-bold mb-2 ml-3">Generate Strong Password</h3>
-          <p class="mb-4">You don’t need to think up a new password every time you sign up for something. Just use 1Password’s password generator to create strong passwords for you. <br/> <br/> Did you know that the 1Password app has this generator, too? All you need to remember is one strong password for 1Password to unlock all the random passwords stored in the app. Plus, the app can autofill login details for you, too – how nice is that?.</p>
-          <br/>
-          <br/>
-          <a href="https://generate-strong-password.vercel.app/" class="bg-black text-white py-2 px-4 rounded ">Visit Now</a>
-        </div>
-        <div class="bg-white p-4 box rounded shadow">
-          <img src="./Images/QRCodeGenerate.jpg" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded">
-          <h3 class="text-xl font-bold mb-2 ml-3">Free QR Code Generator</h3>
-          <p class="mb-4">With our QR code generator, you can control the type of QR Code you want to create, the size, and the foreground color.Select your content type, enter the information and click GENERATE QR CODE. Once satisfied, click DOWNLOAD QR CODE and save the SVG or PNG with your selected dimension. <br><br> A QR code (Quick Response code) is a type of barcode (A two-dimensional matrix)</p>
-          <br/>
-          <br/>
-          <br>
-          <a href="https://qr-code-generator-two-xi.vercel.app/" class="bg-black text-white py-2 px-4 rounded">Visit Now</a>
-        </div>
-        <div class="bg-white p-4 box rounded shadow">
-          <img src="./Images/Show&Hide.webp" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded">
-          <h3 class="text-xl font-bold mb-2 ml-3">Show & Hide Password</h3>
-          <p class="mb-4">Password show and hide mean showing or hiding the letter of the passwords by clicking on the toggle button. This type of feature is mostly added to the form for security purposes because many users do not want to show their passwords to those who are around them.
-            <br><br>On the first input field you can see we can’t see the letter and eye icon is in hiding condition and on the second password field we can see the letter of password clearly and the eye icon is in show condition.
-          </p>
-         
-          <br/>
-          <a href="https://show-and-hide-password-xi.vercel.app/" class="bg-black text-white py-2 px-4 rounded">Visit Now</a>
-        </div>
-        <div class="bg-white p-4 box rounded shadow">
-          <img src="./Images/Age.png" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded">
-          <h3 class="text-xl font-bold mb-2 ml-3">Age Calculator</h3>
-          <p class="mb-4">In this tutorial, we will learn how to create an age calculator using JavaScript. The age calculator will take a birthdate as input and calculate the number of years, months, and days between the birthdate and the current date. We will walk through the code step-by-step, explaining each function and its purpose. <br><br>By the end of this tutorial, you will have a functional age calculator that can be integrated into your web projects.
-          </p>
-          <br/>
-          <br/>
-          <a href="https://age-calculator-lac-two.vercel.app/" class="bg-black text-white py-2 px-4 rounded">Visit Now</a>
-        </div>
-        <div class="bg-white p-4 box rounded shadow">
-          <img src="./Images/Notes.jpeg" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded">
-          <h3 class="text-xl font-bold mb-2 ml-3">Simple Note App</h3>
-          <p class="mb-4">In this note app, users can easily add, edit, or delete their notes. The notes user has added to this app will be stored in the browser’s local storage so, they won’t remove on page refresh or tab close, and it is done with pure JavaScript. <br><br>If you’re feeling difficulty to understand what I’m saying or want to see what this Notes App looks like then you can watch a demo or full video tutorial of this Notes App in JavaScript.</p>
-          <br/>
-          <br/>
-          <br>
-          <a href="https://note-app-rho-sand.vercel.app/" class="bg-black text-white py-2 px-4 rounded">Visit Now</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-20">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
-      <form class="max-w-lg mx-auto">
-        <div class="mb-4">
-          <label for="name" class="block text-sm font-medium mb-2">Name</label>
-          <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded" required>
-        </div>
-        <div class="mb-4">
-          <label for="email" class="block text-sm font-medium mb-2">Email</label>
-          <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded" required>
-        </div>
-        <div class="mb-4">
-          <label for="message" class="block text-sm font-medium mb-2">Message</label>
-          <textarea id="message" name="message" class="w-full p-2 border border-gray-300 rounded" rows="4" required></textarea>
-        </div>
-        <div class="text-center">
-          <button type="submit" class="bg-black text-white py-2 px-4 rounded">Send Message</button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-black p-4 text-white text-center">
-    <p>&copy; 2024 Abdimalik Said Elmi. All Rights Reserved.</p>
-  </footer>
-
-  <script>
-    // Toggle mobile menu visibility
-    document.getElementById('menu-button').addEventListener('click', function() {
-      var menu = document.getElementById('mobile-menu');
-      menu.classList.toggle('hidden');
-    });
-  </script>
-
-</body>
+      gtag('config', 'G-BNTTBGHXSC');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
