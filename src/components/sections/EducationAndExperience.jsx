@@ -57,7 +57,7 @@ function EducationAndExperience() {
         {/* =========== CERTIFICATES TITLE =========== */}
         <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
           <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
-          Certificates
+         Some Certificates
         </h4>
 
         <div

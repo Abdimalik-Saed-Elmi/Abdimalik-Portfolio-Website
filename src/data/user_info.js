@@ -13,7 +13,6 @@ const info = {
         twitter: "https://x.com/cabdimaaliksm",
 		github: "https://github.com/Abdimalik-Saed-Elmi?tab=repositories",
 		linkedin: "https://www.linkedin.com/in/abdimalik-said-elmi-a6424534b/",
-		resume: "https://flowcv.com/resume/v0jgigbkv4lw",
 		instagram: "https://www.instagram.com/abdimalik.saed.elmi/",
 		facebook: "https://www.facebook.com/abdimalik.saed.elmi/",
     },
@@ -79,10 +78,10 @@ const info = {
             image: "Salaam.jpg"
         },
         {
-            school: "Darulkarim School",
-            degree: "Diploma in High School/ Secondary School",
-            duration: "2014 - 2020",
-            image: "Darulkarim.PNG"
+            school: "FreeCodeCamp Organizations",
+            degree: "Successfully completed the FreeCodeCamp certification courses",
+            duration: "2024 - 2025",
+            image: "freecodecapmss.png"
         },
     ],
 
