@@ -1,7 +1,7 @@
 import user_info from "../../data/user_info.js";
 
-import { FaSquareXTwitter, FaLinkedin, FaFile } from "react-icons/fa6";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaSquareXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {

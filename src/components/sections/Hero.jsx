@@ -1,5 +1,7 @@
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Hero() {
   return (
@@ -43,6 +45,46 @@ function Hero() {
                 <IoIosArrowForward className="self-center" />
               </a>
             </div>
+            <div className="mt-6 flex  justify-between md:justify-start md:space-x-8 items-center text-center md:px-0  px-12 py-2">
+        {/* =========== FACEBOOK =========== */}
+        <a
+          href={user_info.socials.facebook}
+          className=" text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300  hover:text-zinc-700 transition-all duration-300"
+        >
+          <FaFacebook className="self-center text-3xl text-red-800 dark:text-red-500" />
+        </a>
+
+        {/* =========== X =========== */}
+        <a
+          href={user_info.socials.twitter}
+          className=" text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 "
+        >
+          <FaSquareXTwitter className="self-center text-3xl text-red-800 dark:text-red-500" />
+        </a>
+        
+        {/* =========== INSTAGRAM =========== */}
+        <a
+          href={user_info.socials.instagram}
+          className=" text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 "
+        >
+          <FaInstagram className="self-center text-3xl text-red-800 dark:text-red-500" />
+        </a>
+
+        {/* =========== LINKEDIN =========== */}
+        <a
+          href={user_info.socials.linkedin}
+          className=" text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300"
+        >
+          <FaLinkedin className="self-center text-3xl text-red-800 dark:text-red-500" />
+        </a>
+          {/* =========== GITHUB =========== */}
+          <a
+          href={user_info.socials.github}
+          className=" text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300"
+        >
+          <FaGithub className="self-center text-3xl text-red-800 dark:text-red-500" />
+        </a>
+      </div>
           </div>
 
           <div className="hidden lg:block w-[480px] self-center">

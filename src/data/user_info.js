@@ -79,7 +79,7 @@ const info = {
         },
         {
             school: "FreeCodeCamp Organizations",
-            degree: "Successfully completed the FreeCodeCamp certification courses",
+            degree: "Successfully completed the FreeCodeCamp full stack certification courses",
             duration: "2024 - 2025",
             image: "freecodecapmss.png"
         },
@@ -129,6 +129,12 @@ const info = {
             description: "Provided by FreeCodeCamp and Authorized by freeCodeCamp.org.",
             icon: "freecodecamp",
             link: "https://www.freecodecamp.org/certification/Abdimalik-Said-Elmi/front-end-development-libraries"
+        },
+        {
+            title: "Back End Development and APIs",
+            description: "Provided by FreeCodeCamp and Authorized by freeCodeCamp.org.",
+            icon: "freecodecamp",
+            link: "https://www.freecodecamp.org/certification/Abdimalik-Said-Elmi/back-end-development-and-apis"
         },
     ],
 
