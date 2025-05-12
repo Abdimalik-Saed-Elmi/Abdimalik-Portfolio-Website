@@ -36,6 +36,14 @@ const info = {
 		},
 
 
+		{
+			title: "E-commerce Website Project",
+			description: "This is a sample application that demonstrates an E-commerce website. That loads products and displays them. Users can select to display products in a single category.",
+			technologies: "React, Tailwind, JavaScript",
+			github: "https://github.com/Abdimalik-Saed-Elmi/E-commerce-Website-Project",
+            link: "https://abdimalik-ecommerce-project.onrender.com"
+		},
+
         {
 			title: "Built Twenty Five Plus Five Clock",
 			description: "I developed a Twenty Five Plus Five Clock, a digital timer implementing the pomodoro technique. Users can set their desired work session length (initially 25 minutes) and break session length (initially 5 minutes).",
@@ -44,13 +52,6 @@ const info = {
             link: "https://build-twenty-five-plus-five-clock-fcc.vercel.app/"
 		},
 
-		{
-			title: "Built Cash Register",
-			description: "This project is a functional web-based cash register. It allows users to input a purchase price and the amount of cash given, then calculates and displays the correct change to be returned, broken down into specific denominations.",
-			technologies: "React, Tailwind, JavaScript",
-			github: "https://github.com/Abdimalik-Saed-Elmi/Build-Cash-Register-FreeCodeCamp-Certificate",
-            link: "https://build-cash-register-freecodecamp.vercel.app/"
-		},
 
 		{
 			title: "Full Authentication System",

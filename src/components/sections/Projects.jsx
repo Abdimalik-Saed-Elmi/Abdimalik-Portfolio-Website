@@ -1,4 +1,4 @@
-import { PiCertificateFill, PiProjectorScreen } from "react-icons/pi";
+import {PiProjectorScreen } from "react-icons/pi";
 import user_info from "../../data/user_info.js";
 import Project from "../Project.jsx";
 
